@@ -374,6 +374,7 @@ public class TypeSdkGenerator
         ArrayInfo.Mapping = null;
 
         string source = sb.ToString();
+        Console.WriteLine(source);
 
         SyntaxTree syntaxTree = CSharpSyntaxTree.ParseText(source);
 
